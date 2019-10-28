@@ -38,7 +38,7 @@ assert.strictEqual(original.foo, 1)
 assert.strictEqual(original.bar, 2)
 
 const copy = clone({}, original, {
-  bar (descriptor): {
+  bar (descriptor) {
     // descriptor == Object.getOwnPropertyDescriptor(original, 'bar')
     const getter = descriptor.get
     descriptor.get = function get () {
