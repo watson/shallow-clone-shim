@@ -1,6 +1,6 @@
 {
   "name": "shallow-clone-shim",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Shallow clones an object while respecting the original property descriptors",
   "main": "index.js",
   "dependencies": {},
@@ -42,5 +42,9 @@
   "bugs": {
     "url": "https://github.com/watson/shallow-clone-shim/issues"
   },
-  "homepage": "https://github.com/watson/shallow-clone-shim#readme"
+  "homepage": "https://github.com/watson/shallow-clone-shim#readme",
+  "coordinates": [
+    55.778269,
+    12.593145
+  ]
 }
